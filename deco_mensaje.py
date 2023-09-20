@@ -1,58 +1,58 @@
 msj = 0
-mensaje = ""
+hexa = ""
 while (msj == 0):
-    codigo = input("Ingrese el mensaje: ")
+    codigo = input("Ingrese el hexa: ")
     
     
     if (len(codigo) == 4):
         if (codigo == "pppp"):
-            mensaje += "0"
+            hexa += "0"
         elif(codigo == "pppr"):
-            mensaje += "1"
+            hexa += "1"
         elif(codigo == "pprp"):
-            mensaje += "2"
+            hexa += "2"
         elif(codigo == "pprr"):
-            mensaje += "3"
+            hexa += "3"
         elif(codigo == "prpp"):
-            mensaje += "4"
+            hexa += "4"
         elif(codigo == "prpr"):
-            mensaje += "5"
+            hexa += "5"
         elif(codigo == "prrp"):
-            mensaje += "6"
+            hexa += "6"
         elif(codigo == "prrr"):
-            mensaje += "7"
+            hexa += "7"
         elif(codigo == "rppp"):
-            mensaje += "8"
+            hexa += "8"
         elif(codigo == "rppr"):
-            mensaje += "9"
+            hexa += "9"
         elif(codigo == "rprp"):
-            mensaje += "A"
+            hexa += "A"
         elif(codigo == "rprr"):
-            mensaje += "B"
+            hexa += "B"
         elif(codigo == "rrpp"):
-            mensaje += "C"
+            hexa += "C"
         elif(codigo == "rrpr"):
-            mensaje += "D"
+            hexa += "D"
         elif(codigo == "rrrp"):
-            mensaje += "E"
+            hexa += "E"
         elif(codigo == "rrrr"):
-            mensaje += "F"
+            hexa += "F"
         else:
             print("Caracter invalido")
         
     elif (len(codigo) == 3):
         if(codigo == "ppp"):
             msj = 1
-            print("El mensaje es: ", mensaje)
+            print("El hexa es: ", hexa)
             print("FIN")
         elif (codigo == "prp"):
-            mensaje += "X"
+            hexa += "X"
         else:
             print("Caracter invalido")
     
     elif (len(codigo) == 2):
         if(codigo == "rr"):
-            mensaje += "n"
+            hexa += "n"
         else:
             print("Sa mondá no existe")
             

@@ -27,8 +27,8 @@ while (msj == 0):
     elif (len(codigo) == 2):
         if(codigo == "rr"):
             mensaje += "n"
-        elif (codigo == "X"):
-            mensaje += e
+        elif (codigo == "xx"):
+            mensaje += "e"
             msj = 1
             print("El mensaje es :", mensaje)
             print("FIN")

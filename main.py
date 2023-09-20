@@ -5,7 +5,7 @@ import numpy as np
 import datetime
 import sys
 
-raw_data="s22222222n22533422n22333322n22376322n22301322n25333342n23233232n27367362e"
+raw_data="s0000n0731n0742e"
 
 size = 80
 images = [
