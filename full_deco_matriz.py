@@ -90,7 +90,6 @@ while (msj == 1):
         elif (codigo == "xx"):
             mensaje += "e"
             msj = 3
-            print("El mensaje es :", mensaje)
             print("FIN")
         else:
             print("Caracter invalido")
